@@ -2092,6 +2092,7 @@ limProcessMessages(tpAniSirGlobal pMac, tpSirMsgQ  limMsg)
         case SIR_LIM_REASSOC_MBB_RSP_TIMEOUT:
         case SIR_LIM_AUTH_SAE_TIMEOUT:
 #endif
+	case SIR_LIM_AUTH_SAE_TIMEOUT:
             // These timeout messages are handled by MLM sub module
 
             limProcessMlmReqMessages(pMac,
